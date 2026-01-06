@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#app-container {
+    height: 852px;
+    width: 393px;
+    border: 1px solid black;
+    background-color: #000c36;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* display: none; */
+}
+
+#render-app-container {
+    height: 852px;
+    width: 393px;
+    border: 1px solid black;
+    background-color: #000c36;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-container img {
+    height: 108px;
+    width: 99px;
+}
+
+#logo-container h1 {
+    font-family: "Carter One", system-ui;
+    font-size: 45px;
+    margin: 0;
+    color: white;
+}
+
+#recommended-movie{
+    height: 450px;
+    width: 330px;
+    border: 1px solid white;
+}
+
+.question-Container-style {
+    height: 120px;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    font-family: "Roboto Slab", serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.question-Container-style textarea {
+    font-size: 16px;
+    resize: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #3B4877;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+button {
+    width: 325px;
+    height: 70px;
+    color: #000C36;
+    background-color: #51E08A;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Roboto Slab", serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
