@@ -36,6 +36,7 @@ async function findNearestMatch(embedding) {
         match_count: 3 // Set to 3 to get a better variety
     });
 
+
     // FIX 2: You MUST return the data, or 'main' gets nothing!
     return data.map(movie => movie.content).join('\n');
 }
@@ -50,6 +51,7 @@ async function getChatCompletion(text, query) {
         role: 'user',
         content: `Context: ${text} Question: ${query}`
     });
+
 
     const response = await openai.chat.completions.create({
         model: 'gpt-4o-mini',
