@@ -1,2 +1,15 @@
+# API Keys and Secrets (CRITICAL)
 config.js
 .env
+
+# Dependencies
+node_modules/
+
+# Local Environment / IDE settings
+.vscode/
+.idea/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
