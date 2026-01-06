@@ -59,8 +59,8 @@ body {
     color: white;
 }
 
-#recommended-movie{
-    height: 450px;
+#recommended-movie {
+    height: 250px;
     width: 330px;
     border: 1px solid white;
 }
@@ -103,4 +103,11 @@ button {
     font-family: "Roboto Slab", serif;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#movie-details p{
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 17px;
+    padding: 20px 5px;
 }
